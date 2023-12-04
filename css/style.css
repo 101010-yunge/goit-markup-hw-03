@@ -42,6 +42,35 @@ ul {
     padding: 120px 0;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header .conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigation li a {
+    color: #2e2f42;
+}
+
+.nav-item {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-itema a {
+    padding: 24px 0;
+}
+
 .section-promo {
     background-color: #2E2F42;
     }
@@ -69,7 +98,8 @@ ul {
 }
 
 .logo-span {
-    color: #2E2F42; 
+    color: #2E2F42;
+    letter-spacing: 0.02em; 
 }
 
 .navi {
