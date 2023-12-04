@@ -1,0 +1,123 @@
+body {
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFF;
+line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.section-promo {
+    background-color: #2E2F42;
+    }
+.section-our {
+    background-color: #F4F4FD;
+}
+
+.section-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.logo-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-span {
+    color: #2E2F42; 
+}
+
+.navi {
+    color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+}
+
+.navi:hover, .navi:focus {
+    color: #404bbf;
+}
+a:hover, button:hover, a:focus, button:focus {
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+}
+
+.mail {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.promo-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #404bbf;
+}
+
+.btn:focus {
+    background-color: #404bbf;
+}
+
+.itum-titul {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.item-text {
+    letter-spacing: 0.02em;
+}
+
+
+.section-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.itum-team {
+    background-color: #fff;
+}
+/* FOOTER */
+footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+}
+.footer-logo-span {
+    color: #f4f4fd;
+}
