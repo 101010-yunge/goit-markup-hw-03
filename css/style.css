@@ -51,7 +51,9 @@ ul {
     .container h3 {
         margin-bottom: 8px;
     }
-
+ 
+/*section 1*/
+     
 .section {
     padding: 120px 0;
 }
@@ -99,6 +101,7 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    font-weight: 500;
 }
 
 .logo-logo {
@@ -201,6 +204,8 @@ address {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+/* section 2 */
 
 .itum-titul {
     font-weight: 500;
