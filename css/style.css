@@ -237,12 +237,12 @@ address {
     padding: 32px 0;
 }
 
-.portfolio .conteiner {
+.portfolio .container {
     display: flex;
     flex-direction: column;
 }
 
-.portfolio .conteiner ul {
+.portfolio .container ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -250,7 +250,7 @@ address {
     row-gap: 48px;
 }
 
-.portfolio .conteiner li {
+.portfolio .container li {
     width: calc(100% - 48px) / 3;
 }
 
@@ -280,7 +280,23 @@ address {
 footer {
     background-color: #2e2f42;
     color: #f4f4fd;
+    padding: 100px 0;
 }
-.footer-logo-span {
+
+.keller {
+    display: block;
+}
+
+.footer .logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #4d5ae5;
+}
+
+.footer p {
+    max-width: 264px;
+}
+
+.footer .footer-logo-span .logo-footer {
     color: #f4f4fd;
 }
