@@ -2,15 +2,15 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
 body {
-font-family: "Roboto", sans-serif;
-color: #434455;
-background-color: #FFF;
-line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFF;
+    line-height: 24px;
 }
 
 a {
@@ -38,43 +38,19 @@ ul {
     padding-right: 0;
 
     padding: 0 15px;
-    margin: 0 auto;
+    margin-left: 0;
     margin-right: 0;
-    margin-left: 0;  
+    margin: 0 auto;
 }
 
-
-
-
-
-.container-titul .container ul {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-}
-
-.container-tituls .container li {
-    width: calc((100% - 3 * 24px) / 4);
-    }
-
-    .container h3 {
-        margin-bottom: 8px;
-    }
- 
-
-
-
-
-
-    /*section 1*/
-     
 .section {
     padding: 120px 0;
 }
-/*header*/
+
+/* HEADER */
 .header {
     border-bottom: 1px solid #e7e9fc;
-    }
+}
 
 .header .container {
     display: flex;
@@ -82,87 +58,61 @@ ul {
     justify-content: space-between;
 }
 
-.navigation {
+.navigations {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.nav-item {
+.nav-items {
     display: flex;
     gap: 40px;
 }
 
-.nav-itema a {
+.nav-item a {
     padding: 24px 0;
 }
 
-.contact-item {
+.contact-items {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.contact-itema {
+.contact-item {
     padding: 24px 0;
     letter-spacing: 0.02em;
 }
 
-.logo-logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
+.logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
-.logo {
+.logo-header {
     margin-right: 76px;
 }
 
 .logo-span {
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.navigations li a {
     color: #2E2F42;
-    letter-spacing: 0.02em; 
 }
 
-.navigation li a {
-    color: #2e2f42;
-}
-
-
-
-
-
-.section-promo {
-    background-color: #2E2F42;
-    }
-.section-our {
-    background-color: #F4F4FD;
-}
-
-.section-team {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    font-weight: 500;
-}
-
-
-
-.navi {
+.active {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 
-.navi:hover, .navi:focus {
-    color: #404bbf;
-}
-a:hover, button:hover, a:focus, button:focus {
+.active:hover, .active:focus {
     color: #404bbf;
 }
 
@@ -170,48 +120,57 @@ address {
     font-style: normal;
 }
 
-.mail {
-    letter-spacing: 0.02em;
+.contacts a {
     color: #434455;
 }
 
-
-
-.section-promo {
-    padding: 188px 0;
+a:hover, button:hover, a:focus, button:focus {
+    color: #404BBF;
 }
 
-.promo-title {
+/* PROMO */
+
+.promo {
+    background-color: #2E2F42;
+}
+
+
+
+.promo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo .promo-title {
     font-size: 56px;
     font-weight: 700;
+    color: #FFF;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
-    color: #ffffff;
 }
 
-.btn {
-    background-color: #4d5ae5;
+.promo .btn {
+    background-color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #FFF;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
     min-width: 169px;
-    cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #404bbf;
+.promo .btn:hover, .promo .btn:focus {
+    background-color: #404BBF;
 }
 
-.btn:focus {
-    background-color: #404bbf;
-}
 
+/* section subject */
 
 .visually-hidden {
     position: absolute;
@@ -226,81 +185,68 @@ address {
     overflow: hidden;
 }
 
-/* section 2 */
-
-.itum-titul {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.item-text {
-    letter-spacing: 0.02em;
-}
-
-.titul-titul .conteiner {
+.peculiarities .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.titul-titul .conteiner ul {
+.peculiarities .container ul{
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
 
-.titul-titul .conteiner li {
-    width: calc (100% - 24px) / 4;
+.peculiarities .container li {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
-.titul-titul .conteiner h3 {
+.peculiarities .container h3 {
     margin-bottom: 8px;
 }
 
-/* section 3 */
+/* OUR TEAM */
 
-.titul .container {
+.team .container {
     display: flex;
     flex-direction: column;
 }
 
-.titul .container ul {
+.team .container ul {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
 
-.titul {
-    background-color: #f4f4fd;
+.team {
+    background-color: #F4F4FD;
 }
 
-.titul h2 {
+.team h2 {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
 }
 
-.titul li {
-    background-color: #ffffff;
+.team li {
+    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
 
-.titul h3 {
+.team h3 {
     margin-bottom: 8px;
 }
 
-.titul h3 .titul p {
+.team h3, .team p {
     text-align: center;
 }
 
-.name {
+.profile {
     padding: 32px 0;
 }
 
-/* section 4 */
+/* OUR PORTFOLIO */
 
 .portfolio .container {
     display: flex;
@@ -319,33 +265,19 @@ address {
     width: calc(100% - 48px) / 3;
 }
 
-.portfolio-porto {
+.portfolio-about {
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border-top: none;
 }
 
-.portvolio-porto h3 {
-    margin-bottom: 8px;
-}
+
 
 .portfolio h2 {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-}
-
-.section-portfolio {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-.itum-team {
-    background-color: #fff;
 }
 
 
@@ -375,3 +307,24 @@ footer {
 .footer .footer-logo-span .logo-footer {
     color: #f4f4fd;
 }
+
+/* ALL */
+
+.section-title {
+    font-size: 36px;
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.item-title {
+    font-size: 20px;
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.item-text {
+    letter-spacing: 0.02em;
+}
+
