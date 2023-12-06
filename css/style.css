@@ -212,8 +212,7 @@ a:hover, button:hover, a:focus, button:focus {
 .team .container {
     display: flex;
     flex-direction: column;
-    padding: 32px 0;
-}
+    }
 
 .team .container ul {
     display: flex;
