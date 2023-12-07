@@ -153,6 +153,7 @@ a:hover, button:hover, a:focus, button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .promo .btn {
@@ -292,7 +293,7 @@ footer {
     padding: 100px 0;
 }
 
-.keller {
+.no-flex {
     display: block;
 }
 
@@ -306,7 +307,7 @@ footer {
     max-width: 264px;
 }
 
-.footer .footer-logo-span .logo-footer {
+.footer .logo-footer .logo-span {
     color: #f4f4fd;
 }
 
@@ -316,7 +317,7 @@ footer {
 .section-title {
     font-size: 36px;
     color: #2e2f42;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.02em;
 }
 
